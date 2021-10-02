@@ -1,0 +1,59 @@
+{
+    "name": "color-me-error",
+    "displayName": "Color Me Error",
+    "description": "Highlights TODO and FIXME (configurable) as errors.",
+    "icon": "ICON.png",
+    "version": "0.0.1",
+    "publisher": "medo64",
+    "galleryBanner": {
+        "color": "#373E6D",
+        "theme": "dark"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/medo64/color-me-error/issues/",
+        "email": "jmedved@jmedved.com"
+    },
+    "homepage": "https://medo64.com/color-me-error/",
+    "repository": {
+        "url": "https://github.com/medo64/color-me-error/"
+    },
+    "categories": [
+        "Other"
+    ],
+    "keywords": [
+        "todo",
+        "fixme",
+        "color"
+    ],
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "main": "./out/extension",
+    "activationEvents": [
+        "*"
+    ],
+    "contributes": {
+        "configuration": [
+            {
+                "type": "object",
+                "title": "Color Me Error",
+                "properties": {
+                    "colorMeError.words": {
+                        "description": "Comma-separated list of words that will be colored as error.",
+                        "scope": "language-overridable",
+                        "type": "string",
+                        "default": "TODO, FIXME"
+                    }
+                }
+            }
+        ]
+    },
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^5.16.0",
+        "vsce": "^1.100.1",
+        "vscode-test": "^1.6.1"
+    }
+}
