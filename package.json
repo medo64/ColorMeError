@@ -3,7 +3,7 @@
     "displayName": "Color Me Error",
     "description": "Highlights TODO and FIXME (configurable) as errors.",
     "icon": "ICON.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "medo64",
     "galleryBanner": {
         "color": "#373E6D",
