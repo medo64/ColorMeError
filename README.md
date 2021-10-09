@@ -8,7 +8,7 @@ non-letter character on each side.
 Extension will parse only visible text and thus should be fast even on large
 or remote files.
 
-![Screenshot](https://raw.githubusercontent.com/medo64/color-me-error/main/images/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/medo64/colormeerror/main/images/screenshot.png)
 
 
 ## Extension Settings

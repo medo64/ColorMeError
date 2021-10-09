@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.3]
+
+- Updated read-me
+
 ## [0.0.2]
 
 - Updated icon
