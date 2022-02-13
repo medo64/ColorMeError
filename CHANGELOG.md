@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.3]
+
+- Updated screenshot location
+- Updated dependencies
+
 ## [0.1.2]
 
 - Icon update
