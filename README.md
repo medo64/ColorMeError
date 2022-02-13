@@ -21,7 +21,9 @@ This extension contributes the following settings:
 
 ### Default Configuration
 
+```json
     "colorMeError.words": "TODO, FIXME",
+```
 
 
 ## Known Issues

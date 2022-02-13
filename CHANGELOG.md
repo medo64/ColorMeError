@@ -1,9 +1,10 @@
 # Change Log
 
-## [0.1.3]
+## [0.1.8]
 
 - Updated screenshot location
 - Updated dependencies
+- Testing to figure out missing details
 
 ## [0.1.2]
 
