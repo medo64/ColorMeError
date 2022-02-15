@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.1]
+
+- Removed regex limitations to word configuration
+
 ## [1.0.0]
 
 - Changed word configuration to use array
