@@ -9,7 +9,7 @@ function activate(context) {
     const isDebug = (context.extensionMode === 2)
 
     // default values
-    const defaultWords = "TODO, FIXME"
+    const defaultWords = [ "TODO", "FIXME" ]
 
     // decorations
     var errorDecorationType
@@ -118,7 +118,7 @@ function activate(context) {
             }
         }
 
-        let wordArray = words.toLowerCase().split(",").map(text => text.trim()).filter(text => text != null)
+        let wordArray = words.map(text => text.trim().toLowerCase()).filter(text => text != null)
         return [ wordArray ]
     }
 

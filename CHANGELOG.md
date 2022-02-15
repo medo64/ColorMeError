@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.0]
+
+- Changed word configuration to use array
+
 ## [0.1.8]
 
 - Updated screenshot location

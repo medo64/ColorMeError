@@ -3,7 +3,7 @@
     "displayName": "Color Me Error",
     "description": "Highlights TODO and FIXME (configurable) as errors.",
     "icon": "ICON.png",
-    "version": "0.1.8",
+    "version": "1.0.0",
     "publisher": "medo64",
     "galleryBanner": {
         "color": "#373E6D",
@@ -42,8 +42,15 @@
                     "colorMeError.words": {
                         "description": "Comma-separated list of words that will be colored as error.",
                         "scope": "language-overridable",
-                        "type": "string",
-                        "default": "TODO, FIXME"
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "pattern": "^\\p{L}+$"
+                        },
+                        "default": [
+                            "TODO",
+                            "FIXME"
+                        ]
                     }
                 }
             }

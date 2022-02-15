@@ -15,14 +15,16 @@ or remote files.
 
 This extension contributes the following settings:
 
-* `colorMeError.words`: Comma-separated list of words that will be colored as
-                        error.
+* `colorMeError.words`: List of words that will be colored as error.
 
 
 ### Default Configuration
 
 ```json
-"colorMeError.words": "TODO, FIXME",
+"colorMeError.words": [
+    "TODO",
+    "FIXME",
+]
 ```
 
 
