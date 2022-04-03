@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.2]
+
+- Security updates for dependencies
+
 ## [1.0.1]
 
 - Removed regex limitations to word configuration
