@@ -60,7 +60,7 @@
     "scripts": {},
     "devDependencies": {
         "eslint": "^8.8.0",
-        "vsce": "^2.6.7",
-        "vscode-test": "^1.6.1"
+        "@vscode/vsce": "^2.15.0",
+        "@vscode/test-electron": "^2.3.3"
     }
 }
