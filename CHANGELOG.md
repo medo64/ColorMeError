@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.4]
+
+- Security updates for dependencies
+
+
 ## [1.0.3]
 
 - Security updates for dependencies
