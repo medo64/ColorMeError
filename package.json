@@ -4,6 +4,11 @@
     "description": "Highlights TODO and FIXME (configurable) as errors.",
     "icon": "ICON.png",
     "version": "1.0.5",
+    "files": [
+        "out/*",
+        "ICON.png",
+        "LICENSE.md"
+    ],
     "publisher": "medo64",
     "galleryBanner": {
         "color": "#373E6D",
