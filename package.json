@@ -6,6 +6,7 @@
     "version": "1.0.5",
     "files": [
         "out/*",
+        "CHANGELOG.md",
         "ICON.png",
         "LICENSE.md"
     ],
