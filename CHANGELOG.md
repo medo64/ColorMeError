@@ -1,5 +1,10 @@
 # Change Log
 
+## [1.0.6]
+
+- Dependency updates
+
+
 ## [1.0.5]
 
 - Dependency updates
