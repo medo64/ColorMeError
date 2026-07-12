@@ -3,7 +3,7 @@
     "displayName": "Color Me Error",
     "description": "Highlights TODO and FIXME (configurable) as errors.",
     "icon": "ICON.png",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "files": [
         "out/*",
         "CHANGELOG.md",
@@ -65,8 +65,8 @@
     },
     "scripts": {},
     "devDependencies": {
-        "eslint": "^8.8.0",
-        "@vscode/vsce": "^2.15.0",
-        "@vscode/test-electron": "^2.3.3"
+        "@vscode/test-electron": "^2.3.3",
+        "@vscode/vsce": "^3.9.2",
+        "eslint": "^8.8.0"
     }
 }
