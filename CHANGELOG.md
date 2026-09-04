@@ -1,6 +1,11 @@
 # Change Log
 
 
+## [1.0.8]
+
+- Dependency updates
+
+
 ## [1.0.7]
 
 - Dependency updates
